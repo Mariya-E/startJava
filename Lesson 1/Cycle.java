@@ -13,8 +13,9 @@ public class Cycle {
         int counter2 = 10;
         int sum = 0;
         do {
-            if (counter2 % 2 != 0) sum += counter2;
-            counter2++;
+            if (counter2 % 2 != 0) sum += counter2;{
+                counter2++;
+            }
         } while (counter2 <= 20);
         System.out.println("Сумма чисел: " + sum);
     }
