@@ -20,7 +20,7 @@ public class Calculator {
             for (int i = 1; i <= b; i++) {
                 degree *= a;
             }
-                System.out.println(degree);
+            System.out.println(degree);
         }
     }
 }
